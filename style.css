@@ -1,0 +1,140 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff8f0;
+    color: #333;
+}
+
+/* Restaurant Header */
+header {
+    background-color: #8b0000;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    font-size: 38px;
+    margin-bottom: 8px;
+}
+
+/* Navigation */
+nav {
+    background-color: #333;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffd27f;
+}
+
+/* Main Area */
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+/* Welcome Message */
+.intro {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.intro h2 {
+    color: #8b0000;
+    margin-bottom: 10px;
+}
+
+/* Menu Box */
+.menu-section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border: 2px solid #ead4bd;
+    border-radius: 12px;
+    box-shadow: 0 3px 8px #ddd;
+}
+
+.menu-section h2 {
+    color: #8b0000;
+    border-bottom: 2px solid #ead4bd;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+/* Individual Food Item */
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /* CSS Box Model */
+    padding: 15px;
+    margin: 12px 0;
+    border: 1px solid #eee;
+    border-radius: 8px;
+
+    background-color: #fffaf5;
+}
+
+.menu-item:hover {
+    background-color: #fff0dc;
+}
+
+.menu-item h3 {
+    margin-bottom: 5px;
+}
+
+.menu-item p {
+    color: #666;
+}
+
+.menu-item strong {
+    color: #8b0000;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+/* Mobile View */
+@media (max-width: 600px) {
+
+    nav a {
+        display: block;
+        margin: 8px;
+    }
+
+    .menu-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .menu-item strong {
+        margin-left: 0;
+        margin-top: 8px;
+    }
+}
+```
